@@ -8,17 +8,18 @@ namespace H
         {
             while (true)
             {
-                Console.WriteLine("write a number :");
+                
+                Console.WriteLine("enter a number :");
             int n = Convert.ToInt16(Console.ReadLine());
 
             if (n == 5)
             {
-                Console.WriteLine("you win");
+                Console.WriteLine("you win ");
             }
             else
             {
                 Console.WriteLine("you lost");
-            }
+            } 
             }
         }
     }
